@@ -8,14 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		2110EC862C8018BC0004A3EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110EC852C8018BC0004A3EA /* AppDelegate.swift */; };
-		2110EC882C8018BC0004A3EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110EC872C8018BC0004A3EA /* SceneDelegate.swift */; };
-		2110EC8A2C8018BC0004A3EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110EC892C8018BC0004A3EA /* ViewController.swift */; };
-		2110EC8D2C8018BC0004A3EA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2110EC8C2C8018BC0004A3EA /* Base */; };
+		2110EC8A2C8018BC0004A3EA /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110EC892C8018BC0004A3EA /* UserListViewController.swift */; };
 		2110EC8F2C8018BD0004A3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2110EC8E2C8018BD0004A3EA /* Assets.xcassets */; };
 		2110EC922C8018BD0004A3EA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2110EC912C8018BD0004A3EA /* Base */; };
 		2110EC9D2C8018BD0004A3EA /* BoHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110EC9C2C8018BD0004A3EA /* BoHubTests.swift */; };
 		2110ECA72C8018BD0004A3EA /* BoHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECA62C8018BD0004A3EA /* BoHubUITests.swift */; };
 		2110ECA92C8018BD0004A3EA /* BoHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECA82C8018BD0004A3EA /* BoHubUITestsLaunchTests.swift */; };
+		2110ECB72C801B380004A3EA /* BoHubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECB62C801B380004A3EA /* BoHubService.swift */; };
+		2110ECBA2C8020070004A3EA /* BoHubNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECB92C8020070004A3EA /* BoHubNetwork.swift */; };
+		2110ECBC2C80211A0004A3EA /* RequestCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECBB2C80211A0004A3EA /* RequestCode.swift */; };
+		2110ECBE2C8025CA0004A3EA /* BoHubTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECBD2C8025CA0004A3EA /* BoHubTargetType.swift */; };
+		2110ECC12C803B110004A3EA /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECC02C803B110004A3EA /* UserModel.swift */; };
+		2110ECC32C803B3C0004A3EA /* DefaultValueWapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECC22C803B3C0004A3EA /* DefaultValueWapper.swift */; };
+		2110ECC52C803CE30004A3EA /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECC42C803CE30004A3EA /* ServiceProvider.swift */; };
+		2110ECC82C8042840004A3EA /* UserListViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECC72C8042840004A3EA /* UserListViewType.swift */; };
+		2110ECCB2C8042BB0004A3EA /* ViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECCA2C8042BB0004A3EA /* ViewPresentable.swift */; };
+		2110ECCD2C8042FD0004A3EA /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECCC2C8042FD0004A3EA /* UserListView.swift */; };
+		2110ECCF2C8045830004A3EA /* UserListComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECCE2C8045830004A3EA /* UserListComponents.swift */; };
+		2110ECD12C8046AA0004A3EA /* UIColor+DarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECD02C8046AA0004A3EA /* UIColor+DarkMode.swift */; };
+		2110ECD32C804D310004A3EA /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECD22C804D310004A3EA /* UserListViewModel.swift */; };
+		2110ECD52C804D580004A3EA /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECD42C804D580004A3EA /* ViewModelType.swift */; };
+		2110ECD82C8069070004A3EA /* UserDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECD72C8069070004A3EA /* UserDetailModel.swift */; };
+		2110ECDA2C806AB30004A3EA /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECD92C806AB30004A3EA /* UserDetailView.swift */; };
+		2110ECDC2C806BE20004A3EA /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECDB2C806BE20004A3EA /* UserDetailViewController.swift */; };
+		2110ECDE2C806BEA0004A3EA /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECDD2C806BEA0004A3EA /* UserDetailViewModel.swift */; };
+		2110ECE02C806BF50004A3EA /* UserDetailViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECDF2C806BF50004A3EA /* UserDetailViewType.swift */; };
+		2110ECE22C806C030004A3EA /* UserDetailComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECE12C806C030004A3EA /* UserDetailComponents.swift */; };
+		2110ECE52C8092C90004A3EA /* ImageView+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECE42C8092C90004A3EA /* ImageView+Network.swift */; };
+		2110ECE72C80984A0004A3EA /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2110ECE62C80984A0004A3EA /* RepositoryModel.swift */; };
+		2110ECE92C80C44E0004A3EA /* env.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2110ECE82C80C44E0004A3EA /* env.txt */; };
+		36CD27BEF4BBD9A89D7D1697 /* Pods_BoHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDFD204711B313876D1532A /* Pods_BoHub.framework */; };
+		B5126F3114F09E7EC8D01DC2 /* Pods_BoHub_BoHubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F056D9BA6A339BD3DB7245B7 /* Pods_BoHub_BoHubUITests.framework */; };
+		CFD0372411BEFAA9B44E9174 /* Pods_BoHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11E50363E3CA3FB70650152 /* Pods_BoHubTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +62,7 @@
 /* Begin PBXFileReference section */
 		2110EC822C8018BC0004A3EA /* BoHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2110EC852C8018BC0004A3EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2110EC872C8018BC0004A3EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2110EC892C8018BC0004A3EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2110EC8C2C8018BC0004A3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2110EC892C8018BC0004A3EA /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		2110EC8E2C8018BD0004A3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2110EC912C8018BD0004A3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2110EC932C8018BD0004A3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +71,38 @@
 		2110ECA22C8018BD0004A3EA /* BoHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2110ECA62C8018BD0004A3EA /* BoHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoHubUITests.swift; sourceTree = "<group>"; };
 		2110ECA82C8018BD0004A3EA /* BoHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2110ECB62C801B380004A3EA /* BoHubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoHubService.swift; sourceTree = "<group>"; };
+		2110ECB92C8020070004A3EA /* BoHubNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoHubNetwork.swift; sourceTree = "<group>"; };
+		2110ECBB2C80211A0004A3EA /* RequestCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCode.swift; sourceTree = "<group>"; };
+		2110ECBD2C8025CA0004A3EA /* BoHubTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoHubTargetType.swift; sourceTree = "<group>"; };
+		2110ECC02C803B110004A3EA /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2110ECC22C803B3C0004A3EA /* DefaultValueWapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultValueWapper.swift; sourceTree = "<group>"; };
+		2110ECC42C803CE30004A3EA /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		2110ECC72C8042840004A3EA /* UserListViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewType.swift; sourceTree = "<group>"; };
+		2110ECCA2C8042BB0004A3EA /* ViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresentable.swift; sourceTree = "<group>"; };
+		2110ECCC2C8042FD0004A3EA /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		2110ECCE2C8045830004A3EA /* UserListComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListComponents.swift; sourceTree = "<group>"; };
+		2110ECD02C8046AA0004A3EA /* UIColor+DarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+DarkMode.swift"; sourceTree = "<group>"; };
+		2110ECD22C804D310004A3EA /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		2110ECD42C804D580004A3EA /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		2110ECD72C8069070004A3EA /* UserDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModel.swift; sourceTree = "<group>"; };
+		2110ECD92C806AB30004A3EA /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		2110ECDB2C806BE20004A3EA /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		2110ECDD2C806BEA0004A3EA /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		2110ECDF2C806BF50004A3EA /* UserDetailViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewType.swift; sourceTree = "<group>"; };
+		2110ECE12C806C030004A3EA /* UserDetailComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailComponents.swift; sourceTree = "<group>"; };
+		2110ECE42C8092C90004A3EA /* ImageView+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Network.swift"; sourceTree = "<group>"; };
+		2110ECE62C80984A0004A3EA /* RepositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryModel.swift; sourceTree = "<group>"; };
+		2110ECE82C80C44E0004A3EA /* env.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = env.txt; sourceTree = "<group>"; };
+		31EAF6C7028CFD5759790C7D /* Pods-BoHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoHub.debug.xcconfig"; path = "Target Support Files/Pods-BoHub/Pods-BoHub.debug.xcconfig"; sourceTree = "<group>"; };
+		5B2167A34E345B46AB17AE79 /* Pods-BoHub-BoHubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoHub-BoHubUITests.debug.xcconfig"; path = "Target Support Files/Pods-BoHub-BoHubUITests/Pods-BoHub-BoHubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76DDF088F433596AE63ED757 /* Pods-BoHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoHubTests.release.xcconfig"; path = "Target Support Files/Pods-BoHubTests/Pods-BoHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C9CA052F6EC199EF9C15EA9 /* Pods-BoHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoHub.release.xcconfig"; path = "Target Support Files/Pods-BoHub/Pods-BoHub.release.xcconfig"; sourceTree = "<group>"; };
+		9CDFD204711B313876D1532A /* Pods_BoHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11E50363E3CA3FB70650152 /* Pods_BoHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75A6C0E4002691BE0C593BE /* Pods-BoHub-BoHubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoHub-BoHubUITests.release.xcconfig"; path = "Target Support Files/Pods-BoHub-BoHubUITests/Pods-BoHub-BoHubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DE76D1DEE79272B72D55F7CC /* Pods-BoHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoHubTests.debug.xcconfig"; path = "Target Support Files/Pods-BoHubTests/Pods-BoHubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F056D9BA6A339BD3DB7245B7 /* Pods_BoHub_BoHubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoHub_BoHubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CD27BEF4BBD9A89D7D1697 /* Pods_BoHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD0372411BEFAA9B44E9174 /* Pods_BoHubTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5126F3114F09E7EC8D01DC2 /* Pods_BoHub_BoHubUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +136,16 @@
 		2110EC792C8018BC0004A3EA = {
 			isa = PBXGroup;
 			children = (
+				2110ECC92C8042A40004A3EA /* Utility */,
+				2110ECBF2C803B040004A3EA /* Model */,
+				2110ECB82C801B440004A3EA /* Network */,
+				2110ECB52C801A6B0004A3EA /* Services */,
 				2110EC842C8018BC0004A3EA /* BoHub */,
 				2110EC9B2C8018BD0004A3EA /* BoHubTests */,
 				2110ECA52C8018BD0004A3EA /* BoHubUITests */,
 				2110EC832C8018BC0004A3EA /* Products */,
+				4D3A62B2D33DF1949800C435 /* Pods */,
+				B0E375489092CEF8E80D1245 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +162,12 @@
 		2110EC842C8018BC0004A3EA /* BoHub */ = {
 			isa = PBXGroup;
 			children = (
+				2110ECD62C8067130004A3EA /* UserDetail */,
+				2110ECC62C8042720004A3EA /* UserList */,
 				2110EC852C8018BC0004A3EA /* AppDelegate.swift */,
-				2110EC872C8018BC0004A3EA /* SceneDelegate.swift */,
-				2110EC892C8018BC0004A3EA /* ViewController.swift */,
-				2110EC8B2C8018BC0004A3EA /* Main.storyboard */,
 				2110EC8E2C8018BD0004A3EA /* Assets.xcassets */,
 				2110EC902C8018BD0004A3EA /* LaunchScreen.storyboard */,
+				2110ECE82C80C44E0004A3EA /* env.txt */,
 				2110EC932C8018BD0004A3EA /* Info.plist */,
 			);
 			path = BoHub;
@@ -127,6 +190,94 @@
 			path = BoHubUITests;
 			sourceTree = "<group>";
 		};
+		2110ECB52C801A6B0004A3EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2110ECB62C801B380004A3EA /* BoHubService.swift */,
+				2110ECC42C803CE30004A3EA /* ServiceProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2110ECB82C801B440004A3EA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2110ECBD2C8025CA0004A3EA /* BoHubTargetType.swift */,
+				2110ECB92C8020070004A3EA /* BoHubNetwork.swift */,
+				2110ECBB2C80211A0004A3EA /* RequestCode.swift */,
+				2110ECE42C8092C90004A3EA /* ImageView+Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2110ECBF2C803B040004A3EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2110ECC02C803B110004A3EA /* UserModel.swift */,
+				2110ECD72C8069070004A3EA /* UserDetailModel.swift */,
+				2110ECE62C80984A0004A3EA /* RepositoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2110ECC62C8042720004A3EA /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				2110ECCC2C8042FD0004A3EA /* UserListView.swift */,
+				2110ECC72C8042840004A3EA /* UserListViewType.swift */,
+				2110EC892C8018BC0004A3EA /* UserListViewController.swift */,
+				2110ECD22C804D310004A3EA /* UserListViewModel.swift */,
+				2110ECCE2C8045830004A3EA /* UserListComponents.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		2110ECC92C8042A40004A3EA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2110ECC22C803B3C0004A3EA /* DefaultValueWapper.swift */,
+				2110ECCA2C8042BB0004A3EA /* ViewPresentable.swift */,
+				2110ECD42C804D580004A3EA /* ViewModelType.swift */,
+				2110ECD02C8046AA0004A3EA /* UIColor+DarkMode.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2110ECD62C8067130004A3EA /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2110ECD92C806AB30004A3EA /* UserDetailView.swift */,
+				2110ECDF2C806BF50004A3EA /* UserDetailViewType.swift */,
+				2110ECDB2C806BE20004A3EA /* UserDetailViewController.swift */,
+				2110ECDD2C806BEA0004A3EA /* UserDetailViewModel.swift */,
+				2110ECE12C806C030004A3EA /* UserDetailComponents.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+		4D3A62B2D33DF1949800C435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31EAF6C7028CFD5759790C7D /* Pods-BoHub.debug.xcconfig */,
+				7C9CA052F6EC199EF9C15EA9 /* Pods-BoHub.release.xcconfig */,
+				5B2167A34E345B46AB17AE79 /* Pods-BoHub-BoHubUITests.debug.xcconfig */,
+				C75A6C0E4002691BE0C593BE /* Pods-BoHub-BoHubUITests.release.xcconfig */,
+				DE76D1DEE79272B72D55F7CC /* Pods-BoHubTests.debug.xcconfig */,
+				76DDF088F433596AE63ED757 /* Pods-BoHubTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0E375489092CEF8E80D1245 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CDFD204711B313876D1532A /* Pods_BoHub.framework */,
+				F056D9BA6A339BD3DB7245B7 /* Pods_BoHub_BoHubUITests.framework */,
+				B11E50363E3CA3FB70650152 /* Pods_BoHubTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2110ECAC2C8018BD0004A3EA /* Build configuration list for PBXNativeTarget "BoHub" */;
 			buildPhases = (
+				86D32EA6B0B79F3D2550CF28 /* [CP] Check Pods Manifest.lock */,
 				2110EC7E2C8018BC0004A3EA /* Sources */,
 				2110EC7F2C8018BC0004A3EA /* Frameworks */,
 				2110EC802C8018BC0004A3EA /* Resources */,
+				0C573D580C898A430B80FD9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2110ECAF2C8018BD0004A3EA /* Build configuration list for PBXNativeTarget "BoHubTests" */;
 			buildPhases = (
+				9DC3BF3F7DDEFB7BC40C460E /* [CP] Check Pods Manifest.lock */,
 				2110EC942C8018BD0004A3EA /* Sources */,
 				2110EC952C8018BD0004A3EA /* Frameworks */,
 				2110EC962C8018BD0004A3EA /* Resources */,
+				574B4D77AEB9E03E05AC7B09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2110ECB22C8018BD0004A3EA /* Build configuration list for PBXNativeTarget "BoHubUITests" */;
 			buildPhases = (
+				088E722C2E393928B41A80CC /* [CP] Check Pods Manifest.lock */,
 				2110EC9E2C8018BD0004A3EA /* Sources */,
 				2110EC9F2C8018BD0004A3EA /* Frameworks */,
 				2110ECA02C8018BD0004A3EA /* Resources */,
+				5C21DCD4EE585E90A5A69294 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +388,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2110ECE92C80C44E0004A3EA /* env.txt in Resources */,
 				2110EC8F2C8018BD0004A3EA /* Assets.xcassets in Resources */,
 				2110EC922C8018BD0004A3EA /* Base in Resources */,
-				2110EC8D2C8018BC0004A3EA /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +410,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		088E722C2E393928B41A80CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoHub-BoHubUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C573D580C898A430B80FD9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoHub/Pods-BoHub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoHub/Pods-BoHub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoHub/Pods-BoHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574B4D77AEB9E03E05AC7B09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoHubTests/Pods-BoHubTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoHubTests/Pods-BoHubTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoHubTests/Pods-BoHubTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C21DCD4EE585E90A5A69294 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoHub-BoHubUITests/Pods-BoHub-BoHubUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoHub-BoHubUITests/Pods-BoHub-BoHubUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoHub-BoHubUITests/Pods-BoHub-BoHubUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D32EA6B0B79F3D2550CF28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DC3BF3F7DDEFB7BC40C460E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoHubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2110EC7E2C8018BC0004A3EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2110EC8A2C8018BC0004A3EA /* ViewController.swift in Sources */,
+				2110ECCB2C8042BB0004A3EA /* ViewPresentable.swift in Sources */,
+				2110ECE52C8092C90004A3EA /* ImageView+Network.swift in Sources */,
+				2110ECE22C806C030004A3EA /* UserDetailComponents.swift in Sources */,
+				2110ECC32C803B3C0004A3EA /* DefaultValueWapper.swift in Sources */,
+				2110ECDE2C806BEA0004A3EA /* UserDetailViewModel.swift in Sources */,
+				2110EC8A2C8018BC0004A3EA /* UserListViewController.swift in Sources */,
+				2110ECC82C8042840004A3EA /* UserListViewType.swift in Sources */,
+				2110ECDA2C806AB30004A3EA /* UserDetailView.swift in Sources */,
 				2110EC862C8018BC0004A3EA /* AppDelegate.swift in Sources */,
-				2110EC882C8018BC0004A3EA /* SceneDelegate.swift in Sources */,
+				2110ECE72C80984A0004A3EA /* RepositoryModel.swift in Sources */,
+				2110ECD82C8069070004A3EA /* UserDetailModel.swift in Sources */,
+				2110ECC12C803B110004A3EA /* UserModel.swift in Sources */,
+				2110ECD12C8046AA0004A3EA /* UIColor+DarkMode.swift in Sources */,
+				2110ECB72C801B380004A3EA /* BoHubService.swift in Sources */,
+				2110ECBE2C8025CA0004A3EA /* BoHubTargetType.swift in Sources */,
+				2110ECD32C804D310004A3EA /* UserListViewModel.swift in Sources */,
+				2110ECD52C804D580004A3EA /* ViewModelType.swift in Sources */,
+				2110ECCF2C8045830004A3EA /* UserListComponents.swift in Sources */,
+				2110ECC52C803CE30004A3EA /* ServiceProvider.swift in Sources */,
+				2110ECBA2C8020070004A3EA /* BoHubNetwork.swift in Sources */,
+				2110ECDC2C806BE20004A3EA /* UserDetailViewController.swift in Sources */,
+				2110ECBC2C80211A0004A3EA /* RequestCode.swift in Sources */,
+				2110ECCD2C8042FD0004A3EA /* UserListView.swift in Sources */,
+				2110ECE02C806BF50004A3EA /* UserDetailViewType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +595,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2110EC8B2C8018BC0004A3EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2110EC8C2C8018BC0004A3EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2110EC902C8018BD0004A3EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,19 +727,22 @@
 		};
 		2110ECAD2C8018BD0004A3EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EAF6C7028CFD5759790C7D /* Pods-BoHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2PFGK5QPG3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BoHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BoHub;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,19 +758,22 @@
 		};
 		2110ECAE2C8018BD0004A3EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9CA052F6EC199EF9C15EA9 /* Pods-BoHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2PFGK5QPG3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BoHub/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BoHub;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,6 +789,7 @@
 		};
 		2110ECB02C8018BD0004A3EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE76D1DEE79272B72D55F7CC /* Pods-BoHubTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +810,7 @@
 		};
 		2110ECB12C8018BD0004A3EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DDF088F433596AE63ED757 /* Pods-BoHubTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +831,7 @@
 		};
 		2110ECB32C8018BD0004A3EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2167A34E345B46AB17AE79 /* Pods-BoHub-BoHubUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +850,7 @@
 		};
 		2110ECB42C8018BD0004A3EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75A6C0E4002691BE0C593BE /* Pods-BoHub-BoHubUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

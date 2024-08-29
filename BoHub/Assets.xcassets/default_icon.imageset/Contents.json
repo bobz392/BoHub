@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "apple-touch-icon-144x144-b882e354c005.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

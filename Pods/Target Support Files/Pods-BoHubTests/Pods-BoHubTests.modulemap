@@ -1,0 +1,6 @@
+framework module Pods_BoHubTests {
+  umbrella header "Pods-BoHubTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
